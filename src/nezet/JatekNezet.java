@@ -5,6 +5,9 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
+import javax.swing.JOptionPane;
+
+
 
 public class JatekNezet extends javax.swing.JFrame {
   
@@ -355,6 +358,7 @@ public class JatekNezet extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_formWindowClosing
 
+    
     /**
      * @param args the command line arguments
      */
@@ -412,6 +416,6 @@ public class JatekNezet extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
     public void mutat(String uzenet) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        JOptionPane.showMessageDialog(this, uzenet);
     }
 }
